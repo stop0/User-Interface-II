@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+.header {
+  display: flex;
+  justify-content: center;
+}
+.htext {
+  flex: 1;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #4caf50;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  padding: 5%;
+  width: 90%;
+}
+
+.Gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Gallery img {
+  padding: 2% 1%;
+}
+.Bottom {
+  display: flex;
+  justify-content: center;
+  background-color: BROWN;
+}
