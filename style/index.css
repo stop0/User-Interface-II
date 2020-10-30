@@ -7,6 +7,9 @@
 }
 .htext {
   flex: 1;
+  font-family: "Roboto Mono";
+  font-size: 35px;
+  letter-spacing: 9px;
 }
 
 .button {
@@ -18,8 +21,9 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 9px 4px;
+  margin: 25px 25px;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 .button1 {
