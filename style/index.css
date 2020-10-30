@@ -2,6 +2,8 @@
 .header {
   display: flex;
   justify-content: center;
+  background-color: aqua;
+  padding: 2%;
 }
 .htext {
   flex: 1;
@@ -16,7 +18,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 9px 4px;
   cursor: pointer;
 }
 
@@ -38,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: grey;
 }
 
 .img1 {
@@ -50,9 +53,14 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: pink;
 }
 .Gallery img {
   padding: 2% 1%;
+}
+
+.Gallery p {
+  padding: 15px;
 }
 .Bottom {
   display: flex;
