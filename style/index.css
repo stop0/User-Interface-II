@@ -1,29 +1,43 @@
 /* Add CSS styling here */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
-  justify-content: center;
-  background-color: aqua;
+  justify-content: space-between;
+  background-color: #222831;
   padding: 2%;
 }
-.htext {
-  flex: 1;
+.headertext {
   font-family: "Roboto Mono";
-  font-size: 35px;
+  font-size: 300%;
   letter-spacing: 9px;
+  color: white;
+  padding-top: 2%;
 }
 
 .button {
-  background-color: #4caf50;
-  border: none;
-  color: black;
+  font-family: "Roboto Mono";
+  border: 1px white solid;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 200%;
   margin: 25px 25px;
   cursor: pointer;
   border-radius: 12px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
 }
 
 .button1 {
@@ -40,16 +54,20 @@
   justify-content: center;
 }
 
-.Name {
+.portfolioPic {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: grey;
+  background-color: #393e46;
+  padding: 7%;
 }
 
 .img1 {
-  padding: 5%;
-  width: 90%;
+  padding: 1%;
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
 
 .Gallery {
@@ -57,17 +75,47 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: pink;
+  background-color: #495464;
 }
 .Gallery img {
   padding: 2% 1%;
 }
 
 .Gallery p {
-  padding: 15px;
+  padding-left: 30px;
 }
+
+.GalleryOri {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2% 2%;
+}
+
 .Bottom {
   display: flex;
   justify-content: center;
-  background-color: BROWN;
+  align-items: center;
+
+  background-color: #bbbfca;
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #222831;
+    padding: 8%;
+  }
+
+  .header a {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #222831;
+    padding: 2%;
+  }
 }
